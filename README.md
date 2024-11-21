@@ -60,7 +60,7 @@ Rocky Linux 9.4. miniforge/3-24. Python3.12
 
 or
 
-``
+```
    /home/feng/aws/bin/aws --debug lightsail get-instances
 ```
 
