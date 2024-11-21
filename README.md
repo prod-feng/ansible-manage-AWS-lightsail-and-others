@@ -58,6 +58,12 @@ Rocky Linux 9.4. miniforge/3-24. Python3.12
    /home/feng/aws/bin/aws --debug lightsail get-instance --instance-name mytestweb
 ```
 
+or
+
+``
+   /home/feng/aws/bin/aws --debug lightsail get-instances
+```
+
 ## 3.5 Generate SSH key on local machine, and import it to the new Lightsail instance, so you can use ssh command to login later.
 ```
 ssh-keygen -q -t rsa -b 2048 -N '' -f ~/.ssh/myweb
